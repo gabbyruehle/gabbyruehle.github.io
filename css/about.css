@@ -1,0 +1,21 @@
+
+/*contact me*/ 
+
+.contact-me {
+    margin: 0 auto;
+    margin-top: 10em;
+    margin-bottom: 10em;
+    width: 25em;
+}
+
+.contact-me h2 {
+    margin-bottom: 1em;
+}
+
+.contact-me li a:hover{
+    text-decoration: none;
+}
+
+.contact-me li {
+    margin: 1em 0;
+}

@@ -1,0 +1,123 @@
+/* most recent project section */
+.recent-project {
+    margin-top: 10em;
+    border-bottom: 3px solid #cdd2d2;
+    padding-bottom: 10em;
+}
+
+.recent-project h2 {
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.recent-project-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.recent-project-container img {
+    max-width: 350px;
+    width: 100%;
+    border: 1px solid #cdd2d2;
+}
+
+.recent-project-description {
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+.recent-project-description h3 a {
+    color: black;
+}
+.recent-project-description h3 a:hover {
+    text-decoration: none;
+    color: #07446b;
+    font-weight: 600;
+}
+
+.recent-project-description p {
+    max-width: 500px;
+    padding-left: 2em;
+    border-left: 2px solid #29b8d8;
+}
+
+/*projects section*/
+
+.projects {
+    margin: 5em 8%;
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.projectcard-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.projectcard {
+    border: 3px solid #219ab5;
+    border-radius: 7px;
+    padding: 20px;
+    max-width: 25em;
+    margin: 3em 2em;
+    width: 100%;
+}
+
+.projectcard .photoicon {
+    max-width: 20em;
+    margin: 0 auto;
+    margin-bottom: 1em
+}
+
+.projectcard img {
+    width: 100%;
+    display: block;;
+    border: 1px solid #cdd2d2;
+}
+
+.projectcard .title {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    color: black;
+    border-bottom: 3px solid #07446b;
+}
+
+.projectcard p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.projectcard .button {
+    margin: 0 auto;
+}
+
+.projectcard .button:hover h4 {
+    color: #f8f8f8
+}
+
+@media only screen and (max-width: 479px) {
+    .projectcard {
+        margin: 1.5em 0 ;
+    }
+
+    .recent-project {
+        margin-top: 5em;
+    }
+
+    .recent-project h2 {
+        margin-bottom: 2em;
+    }
+}

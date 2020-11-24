@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <title>G. Ruehle</title>
+    <meta name="description" content="data science portfolio">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- Link to Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!-- Link to Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    <!-- Link to fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- Link to your custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="/css/projects.css">
+    
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <!--header and nav-->
+        <header class="header">
+            <h1 class="logo-title">G. Ruehle</h1>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                  <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/html/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item resume-button">
+                      <a class="nav-link" href="/media/RuehleGabrielle.pdf" target="_blank">Resume</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="header-image">
+            <h1>My Projects</h1>
+        </div>
+
+        <main> 
+            <section class="recent-project">
+                <h2>Most Recent Project</h2>
+                <div class="recent-project-container">
+                    <img src="/media/Air-pollutants-map-min.png" alt="nc map with air quality measurements">
+                    <div class="recent-project-description">
+                        <h3><a href="https://github.com/Carolina-Data-Challenge/Virtual-Sneks" target="_blank">Air Quality Analysis</a></h3>
+                        <p>This project was created as a part of the 2020 Carolina Data Challenge with my partner Ellie Kremer. We analyzed data of air quality measures from around North Carolina noticing trends in seasonality and differences in measurements in rural vs urban areas.</p>
+                        <h6>Topics: time series analysis, data wrangling, tableau</h6>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects">
+                <h2>Projects</h2>
+                <div class="projectcard-container">
+                    <div class="projectcard">
+                        <div class="photoicon">
+                            <img src="/media/chapel-hill-arrests-min.png" alt="map of chapel hill arrests"></img>
+                        </div>
+                        <h4 class="title">Chapel Hill Arrest Analysis</h4>
+                        <p>Looking at where arrests happen in Chapel Hill and clustering based on demographic characteristics of arrestees. </p>
+                        <div class = "button">
+                            <h4><a href="/media/Arrests-Visuals.html" target="_blank">Learn More</a></h4>
+                        </div>
+                    </div>
+                    <div class="projectcard">
+                        <img class="photoicon" src="/media/UFC-graph-min.png" alt="boxplots of length of takedowns by UFC fight round"style="image-rendering: pixelated;"></img>
+                        <h4 class="title">Analysis of UFC Takedowns</h4>
+                        <p>We analyzed data collected by watching UFC fights to understand UFC fighter Khabib's takedown style and uncover any weaknesses. </p>
+                        <div class = "button">
+                            <h4><a href="/media/538-P1-Paper.pdf" target="_blank">Learn More</a></h4>
+                        </div>
+                    </div>
+                    <div class="projectcard">
+                        <img class="photoicon" src="/media/rugby-min.jpg" alt="rugby players"></img>
+                        <h4 class="title">Data Analytics in Rugby</h4>
+                        <p>An overview of the use of data analytics in rugby and recommendations for future uses. </p>
+                        <div class = "button">
+                            <h4><a href="/media/STOR538-Championship.pdf" target="_blank">Learn More</a></h4>
+                        </div>
+                    </div>
+                    <div class="projectcard">
+                        <img class="photoicon" src="/media/election-map-min.png" alt="map of nc with counties colored by presidential winner" style="image-rendering: pixelated;"></img>
+                        <h4 class="title">2016 Election Mapping</h4>
+                        <p>A look at 2016 election results by North Carolina counties. </p>
+                        <div class = "button">
+                            <h4><a href="https://github.com/gabbyruehle/2016_election_mapping" target="_blank">Learn More</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class = "link-logos">
+                <a href="https:www.linkedin.com/in/gabrielle-ruehle" target="_blank"><i class="fab fa-linkedin" style="color:#f8f8f8"></i></a>
+                <a href="https:www.github.com/gabbyruehle" target="_blank"><i class="fab fa-github-square" style="color: #f8f8f8"></i></a>
+            </div>
+            <h3>About This Website</h3>
+            <p>This website was coded in HTML and CSS as a final project for COMP 126. It is hosted on a Github server. The code can be found <a href = "#">here</a>.</p>
+            <p>Copyright 2020 by G Ruehle</p>
+        </footer>
+    </div>
+
+
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/79bc4b36da.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js"></script>
+
+    <!-- unique Bootstrap 4 JavaScript scripts -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+</body>
